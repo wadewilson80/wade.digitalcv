@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         renderProfile(data.profile);
         renderRole(data.role);
         renderTiles('experience-tiles', data.experience);
-        renderTiles('skills-tiles', data.skills);
+        renderTiles('skills-tiles', data["personal qualities"]);
         setupModal();
     }
 });
