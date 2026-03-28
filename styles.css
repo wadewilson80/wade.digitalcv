@@ -1,7 +1,7 @@
 :root {
     --navy: #0B1638;
     --navy-light: #33486C;
-    --grey-dark: #63B7DE;
+    --light-blue: #63B7DE;
     --grey-medium: #718096;
     --grey-light: #DADCE1;
     --grey-lighter: #f7fafc;
@@ -25,13 +25,13 @@ body {
 
 .header {
     background-color: var(--navy);
-    color: var(--grey-light);
+    color: var(--grey-lighter);
     padding: 1.5rem 2rem;
     box-shadow: var(--shadow-lg);
 }
 
 .header-content {
-    max-width: 1000px;
+    max-width: 1600px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -88,7 +88,7 @@ body {
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 1600px;
     margin: 0 auto;
     padding: 2rem;
 }
@@ -114,14 +114,14 @@ body {
 .role-title {
     font-size: 1.6rem;
     font-weight: 400;
-    color: var(--grey-dark);
+    color: var(--light-blue);
 }
 
 .role-description {
     color: var(--navy);
     font-size: 0.95rem;
     line-height: 1.6;
-    max-width: 700px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -184,7 +184,7 @@ body {
     display: inline-flex;
     align-items: center;
     gap: 0.35rem;
-    color: var(--navy);
+    color: var(--light-blue);
     font-size: 0.8rem;
     cursor: pointer;
     transition: all 0.2s ease;
@@ -206,7 +206,7 @@ body {
     width: 16px;
     height: 16px;
     border-radius: 50%;
-    background-color: var(--navy);
+    background-color: var(--light-blue);
     color: var(--white);
     font-size: 0.65rem;
     font-weight: 600;
@@ -259,7 +259,7 @@ body {
     background: none;
     border: none;
     font-size: 1.75rem;
-    color: var(--navy-light);
+    color: var(--navy);
     cursor: pointer;
     line-height: 1;
     padding: 0.25rem;
@@ -267,7 +267,7 @@ body {
 }
 
 .modal-close:hover {
-    color: var(--navy);
+    color: var(--navy-light);
 }
 
 .modal h3 {
@@ -286,7 +286,7 @@ body {
     padding: 0.5rem 0;
     padding-left: 1.5rem;
     position: relative;
-    color: var(--grey-light);
+    color: var(--navy-light);
     font-size: 0.95rem;
 }
 
@@ -294,13 +294,13 @@ body {
     content: "•";
     position: absolute;
     left: 0;
-    color: var(--navy);
+    color: var(--navy-light);
     font-weight: bold;
 }
 
 .quote-box {
-    background-color: var(--white);
-    border-left: 3px solid var(--navy);
+    background-color: var(--grey-lighter);
+    border-left: 3px solid var(--light-blue);
     padding: 1rem 1.25rem;
     border-radius: 0 8px 8px 0;
 }
@@ -322,7 +322,7 @@ body {
 }
 
 .quote-author {
-    color: var(--grey-dark);
+    color: var(--grey-medium);
     font-size: 0.85rem;
     font-weight: 500;
 }
